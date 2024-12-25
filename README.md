@@ -1,6 +1,6 @@
 # whereto
 
-![Project Screenshot](images/whereto-screenshot.png)
+![Project Screenshot](./whereto-screenshot.png)
 
 ## Deployments
 
