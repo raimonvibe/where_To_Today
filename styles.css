@@ -1,0 +1,347 @@
+body {
+  background-color: #111;
+  color: orange;
+  font-family: Arial, sans-serif;
+}
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  display: grid;
+  gap: 20px;
+}
+
+h1 {
+  color: purple;
+}
+
+label {
+  display: block;
+  margin-bottom: 10px;
+}
+
+input[type="text"] {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+button {
+  background-color: orange;
+  color: #111;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: purple;
+}
+
+#results {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 20px;
+}
+
+.weather-container {
+  background-color: #66ccff;
+  color: #333;
+  padding: 20px;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+
+.weather-icon {
+  font-size: 36px;
+  margin-bottom: 10px;
+}
+
+.weather p {
+  margin: 0;
+}
+
+.sun {
+  color: yellow;
+}
+
+.rain {
+  color: blue;
+}
+
+.cloud {
+  color: lightgrey;
+}
+
+.snow {
+  color: white;
+}
+
+.thunderstorm {
+  color: purple;
+}
+
+.restaurant-container {
+  background-color: orange; /* Achtergrondkleur voor de restaurantcontainer */
+  padding: 20px;
+  border-radius: 10px;
+}
+
+#restaurants {
+  background-color: orange;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+#restaurants h3 {
+  color: black;
+  margin-top: 0; /* Verwijder de bovenmarge om dichter bij de inhoud te staan */
+}
+
+.restaurant {
+  background-color: orange; /* Achtergrondkleur voor individuele restaurants */
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.restaurant p {
+  color: white;
+  margin: 0;
+}
+
+.cafe-container {
+  background-color: brown; /* Achtergrondkleur voor de restaurantcontainer */
+  padding: 20px;
+  border-radius: 10px;
+}
+
+#cafes {
+  background-color: brown;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+#cafes h3 {
+  color: black;
+  margin-top: 0; /* Verwijder de bovenmarge om dichter bij de inhoud te staan */
+}
+
+.cafe {
+  background-color: brown; /* Achtergrondkleur voor individuele restaurants */
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.cafe p {
+  color: white;
+  margin: 0;
+}
+
+.park-container {
+  background-color: green; /* Achtergrondkleur voor de parkcontainer */
+  padding: 20px;
+  border-radius: 10px;
+}
+
+#parks {
+  background-color: green;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+#parks h3 {
+  color: black;
+  margin-top: 0; /* Verwijder de bovenmarge om dichter bij de inhoud te staan */
+}
+
+.park {
+  background-color: green; /* Achtergrondkleur voor individuele parken */
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.park p {
+  color: white;
+  margin: 0;
+}
+
+.toilet-container {
+  background-color: blue; /* Achtergrondkleur voor de toiletcontainer */
+  padding: 20px;
+  border-radius: 10px;
+}
+
+#toilets {
+  background-color: blue;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+#toilets h3 {
+  color: black;
+  margin-top: 0; /* Verwijder de bovenmarge om dichter bij de inhoud te staan */
+}
+
+.toilet {
+  background-color: blue; /* Achtergrondkleur voor individuele toiletten */
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.toilet p {
+  color: white;
+  margin: 0;
+}
+
+.library-container {
+  background-color: #ffcc00; /* Achtergrondkleur voor de bibliotheekcontainer (geel) */
+  padding: 20px;
+  border-radius: 10px;
+}
+
+#libraries {
+  background-color: #ffcc00; /* Achtergrondkleur voor de titel van de bibliotheeksectie (geel) */
+  padding: 20px;
+  border-radius: 10px;
+}
+
+#libraries h3 {
+  color: black;
+  margin-top: 0; /* Verwijder de bovenmarge om dichter bij de inhoud te staan */
+}
+
+.library {
+  background-color: #ffcc00; /* Achtergrondkleur voor individuele bibliotheken (geel) */
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.library p {
+  color: black; /* Tekstkleur voor bibliotheken (zwart) */
+  margin: 0;
+}
+
+.cinema-container {
+  background-color: #ff0000; /* Achtergrondkleur voor de bioscoopcontainer (rood) */
+  padding: 20px;
+  border-radius: 10px;
+}
+
+#cinemas {
+  background-color: #ff0000; /* Achtergrondkleur voor de titel van de bioscoopsectie (rood) */
+  padding: 20px;
+  border-radius: 10px;
+}
+
+#cinemas h3 {
+  color: black;
+  margin-top: 0; /* Verwijder de bovenmarge om dichter bij de inhoud te staan */
+}
+
+.cinema {
+  background-color: #ff0000; /* Achtergrondkleur voor individuele bioscopen (rood) */
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.cinema p {
+  color: black; /* Tekstkleur voor bioscopen (zwart) */
+  margin: 0;
+}
+
+.theater-container {
+  background-color: #800080; /* Achtergrondkleur voor de theatercontainer (paars) */
+  padding: 20px;
+  border-radius: 10px;
+}
+
+#theaters {
+  background-color: #800080; /* Achtergrondkleur voor de titel van de theatersectie (paars) */
+  padding: 20px;
+  border-radius: 10px;
+}
+
+#theaters h3 {
+  color: white; /* Tekstkleur voor de titel van de theatersectie (wit) */
+  margin-top: 0; /* Verwijder de bovenmarge om dichter bij de inhoud te staan */
+}
+
+.theater {
+  background-color: #800080; /* Achtergrondkleur voor individuele theaters (paars) */
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.theater p {
+  color: white; /* Tekstkleur voor theaters (wit) */
+  margin: 0;
+}
+
+.religious-container {
+  background-color: #66ccff; /* Achtergrondkleur voor de titel van de religieuze plaatsen sectie (paars met transparantie) */
+  padding: 20px;
+  border-radius: 10px;
+}
+
+#religious {
+  background-color: #66ccff; /* Achtergrondkleur voor de titel van de religieuze plaatsen sectie (paars met transparantie) */
+  padding: 20px;
+  border-radius: 10px;
+}
+
+#religious h3 {
+  color: white; /* Tekstkleur voor de titel van de religieuze plaatsen sectie (wit) */
+  margin-top: 0; /* Verwijder de bovenmarge om dichter bij de inhoud te staan */
+}
+
+.religious {
+  background-color: #66ccff; /* Achtergrondkleur voor individuele religieuze plaatsen (paars met transparantie) */
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.religious p {
+  color: white; /* Tekstkleur voor religieuze plaatsen (wit) */
+  margin: 0;
+}
+
+.supermarket-container {
+  background-color: #ffcc66; /* Achtergrondkleur voor de titel van de supermarkten sectie (lichtoranje) */
+  padding: 20px;
+  border-radius: 10px;
+}
+
+#supermarkets {
+  background-color: #ffcc66; /* Achtergrondkleur voor de titel van de supermarkten sectie (lichtoranje) */
+  padding: 20px;
+  border-radius: 10px;
+}
+
+#supermarkets h3 {
+  color: white; /* Tekstkleur voor de titel van de supermarkten sectie (wit) */
+  margin-top: 0; /* Verwijder de bovenmarge om dichter bij de inhoud te staan */
+}
+
+.supermarket {
+  background-color: #ffcc66; /* Achtergrondkleur voor individuele supermarkten (lichtoranje) */
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.supermarket p {
+  color: white; /* Tekstkleur voor supermarkten (wit) */
+  margin: 0;
+}
+
+
+@media screen and (min-width: 768px) {
+  .weather-container {
+    width: 100%; /* Maak de weer-container 100% breed op grotere schermen */
+    margin-bottom: 20px; /* Voeg wat ruimte onder de weer-container toe */
+  }
+
+  #results {
+    grid-template-columns: 1fr; /* Zorg ervoor dat de resultaten onder elkaar worden weergegeven */
+  }
+}
