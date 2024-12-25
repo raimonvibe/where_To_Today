@@ -6,7 +6,7 @@
 
 The application is available at:
 
-- GitHub Pages: [https://raimonvibe.github.io/whereto/](https://raimonvibe.github.io/whereto/)
+- GitHub Pages: [https://raimonvibe.github.io/where_To_Today/](https://raimonvibe.github.io/where_To_Today/)  
 
 ## About
 A personalized travel planner that shows weather information and nearby places for any city. The application uses the OpenWeatherMap API for weather data and OpenStreetMap's Overpass API for location information. Features include:
