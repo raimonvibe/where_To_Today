@@ -1,0 +1,10 @@
+Start a Local HTTP Server: Run the following command in your terminal:
+
+bash
+Copy code
+python -m http.server 8000
+
+Open a browser and go to:
+arduino
+Copy code
+http://localhost:8000
